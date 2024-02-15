@@ -1,0 +1,22 @@
+{
+  "name": "readme-rodeo",
+  "version": "1.0.0",
+  "description": "A command-line application to generate a professional README file",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uberponky/README-Rodeo"
+  },
+  "keywords": [
+    "README"
+  ],
+  "author": "Rory Simmonds",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.14"
+  }
+}
