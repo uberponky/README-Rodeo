@@ -60,12 +60,6 @@ async function init() {
       type: "input",
     },
     {
-      name: "license",
-      message: "Select a license",
-      type: "list",
-      choices: ['MIT', "Apache 2.0", "Boost 1.0", "BSD 3-Clause", "BSD 2-Clause"]
-    },
-    {
       name: "contribution",
       message: "Enter your contribution instructions:",
       type: "input",
@@ -74,6 +68,12 @@ async function init() {
       name: "test",
       message: "Enter the command that should be used to run tests:",
       type: "input",
+    },
+    {
+      name: "license",
+      message: "Select a license",
+      type: "list",
+      choices: ['MIT', "Apache 2.0", "Boost 1.0", "BSD 3-Clause", "BSD 2-Clause"]
     }
   ])
 

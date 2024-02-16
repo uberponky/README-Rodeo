@@ -21,6 +21,7 @@ export default function generateMarkdown(data) {
 
   return (
 `# ${data.title}
+${badge}
 
 ## Description
 ${data.description}
@@ -39,9 +40,6 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
-## License
-${badge}
-
 ## Contribution
 ${data.contribution}
 
@@ -52,6 +50,10 @@ ${data.test}
 Please sent all questions to:
 ${data.username} - ${data.email}
 
-[My GitHub profile](${data.url})`
+[My GitHub profile](${data.url})
+
+## License
+${data.license}
+`
 )
 }
