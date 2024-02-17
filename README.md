@@ -38,6 +38,8 @@ Once you have cloned the repo and downloaded the necessary dependencies, follow 
 
 3. Your README file will be created in your project root folder. Open it and see the magic!
 
+You can see a video walkthrough of these steps here: [Walkthrough Video](https://drive.google.com/file/d/1raFRn_C7v2cI6MF_wGEX_UhtXewUGcbm/view?usp=sharing)
+
 ## Credits
 
 - **The edX Front-End Development Bootcamp Team** - for their support and tutoring
