@@ -8,11 +8,6 @@ import generateMarkdown from './utils/generateMarkdown.js'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
-// array of questions for user
-const questions = [
-
-];
-
 // function to write README file
 function writeToFile(fileName, data) {
   fs.writeFile(path.join(__dirname,fileName), data, function (err) {
